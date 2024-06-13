@@ -19,7 +19,7 @@ class ImagePlotter(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('Military Target Detection by Mian Ali Khalid')
+        self.setWindowTitle('Military Object Detection by Mian Ali Khalid')
         self.setGeometry(100, 100, 400, 400)
 
         # Main layout
