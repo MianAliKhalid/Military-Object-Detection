@@ -47,4 +47,5 @@ Ensure your custom dataset is in the correct format and placed in the `data` dir
 To train the model with your custom dataset, run the following command:
 
 ```bash
-python train.py --data dataset/data.yaml --cfg models/yolov8.yaml --weights models/pretrained-model.pt --name custom_yolov8```
+python train.py --data dataset/data.yaml --cfg models/yolov8.yaml --weights models/pretrained-model.pt --name custom_yolov8
+```
