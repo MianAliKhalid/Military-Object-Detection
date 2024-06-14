@@ -34,7 +34,7 @@ This repository contains the implementation of a military object detection syste
 
 3. **Download the pre-trained model**
 
-   Download the pre-trained YOLO model from [this link](http://example.com/pretrained-model) and place it in the `models` directory.
+   Download the pre-trained YOLO model from [this link]([http://example.com/pretrained-model](https://drive.google.com/file/d/16OlcFS2Om6256W8u6-h6hM5BpDAXzzSb/view?usp=drive_link)) and place it in the `models` directory.
 
 ## Usage
 
@@ -45,7 +45,6 @@ Ensure your custom dataset is in the correct format and placed in the `data` dir
 ### Train the Model
 
 To train the model with your custom dataset, run the following command:
-https://drive.google.com/file/d/16OlcFS2Om6256W8u6-h6hM5BpDAXzzSb/view?usp=drive_link
 
 ```bash
 python train.py --data dataset/data.yaml --cfg models/yolov8.yaml --weights models/pretrained-model.pt --name custom_yolov8
