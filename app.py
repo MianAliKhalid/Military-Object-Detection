@@ -37,7 +37,7 @@ class ImagePlotter(QMainWindow):
         top_layout.addWidget(logo_label, alignment=Qt.AlignLeft)
 
         # Title label
-        title_label = QLabel('Military Target Detection By Mian Ali Khalid Chief Scientist at Tech Horizen Pvt Ltd')
+        title_label = QLabel('Military Object Detection')
         title_label.setFont(QFont('Arial', 20))
         top_layout.addWidget(title_label, alignment=Qt.AlignCenter)
 
