@@ -24,7 +24,7 @@ This repository contains the implementation of a military object detection syste
    cd Military-Object-Detection
 
 
-2. ** Create conda env**
+2. **Create conda env**
 
    ```bash
    conda create --name military-detection python=3.8
