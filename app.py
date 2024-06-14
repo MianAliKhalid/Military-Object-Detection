@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from utils import Get_detected_image
 
-modelpth = 'runs/detect/train/weights/last.pt'
+modelpth = 'models/last.pt'
 
 class ImagePlotter(QMainWindow):
     def __init__(self):
