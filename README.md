@@ -45,7 +45,7 @@ This repository contains the implementation of a military object detection syste
 Once you have set up your environment and the pretrained model is in place, you can start the application by running `app.py`:
 
 ```bash
-python app.py'
+python app.py
 ```
 
 ## Dataset
