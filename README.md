@@ -21,7 +21,8 @@ This repository contains the implementation of a military object detection syste
 
    ```bash
    git clone https://github.com/MianAliKhalid/Military-Object-Detection.git
-   cd Military-Object-Detection
+   cd Military-Object-Detection```
+
 
 
 2. **Create conda env**
@@ -30,3 +31,20 @@ This repository contains the implementation of a military object detection syste
    conda create --name military-detection python=3.8
    conda activate military-detection```
 
+
+3. **Download the pre-trained model**
+
+   Download the pre-trained YOLO model from [this link](http://example.com/pretrained-model) and place it in the `models` directory.
+
+## Usage
+
+### Prepare the Dataset
+
+Ensure your custom dataset is in the correct format and placed in the `data` directory.
+
+### Train the Model
+
+To train the model with your custom dataset, run the following command:
+
+```bash
+python train.py --data dataset/data.yaml --cfg models/yolov8.yaml --weights models/pretrained-model.pt --name custom_yolov8```
