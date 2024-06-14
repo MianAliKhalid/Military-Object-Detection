@@ -34,7 +34,9 @@ This repository contains the implementation of a military object detection syste
 
 3. **Download the pre-trained model**
 
-   Download the pre-trained YOLO model from [this link]([http://example.com/pretrained-model](https://drive.google.com/file/d/16OlcFS2Om6256W8u6-h6hM5BpDAXzzSb/view?usp=drive_link)) and place it in the `models` directory.
+   
+   Download the pre-trained YOLO model from [this link](https://drive.google.com/file/d/16OlcFS2Om6256W8u6-h6hM5BpDAXzzSb/view?usp=drive_link) and place it in the `models` directory.
+
 
 ## Usage
 
