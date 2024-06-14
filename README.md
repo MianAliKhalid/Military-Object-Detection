@@ -39,6 +39,15 @@ This repository contains the implementation of a military object detection syste
    
    Download the pre-trained YOLO model from [this link](https://drive.google.com/file/d/16OlcFS2Om6256W8u6-h6hM5BpDAXzzSb/view?usp=drive_link) and place it in the `models` directory.
 
+
+4. **Run the Application**
+
+Once you have set up your environment and the pretrained model is in place, you can start the application by running `app.py`:
+
+```bash
+python app.py'
+```
+
 ## Dataset
 
 To access and download the custom dataset used for training our military object detection model, please follow the link below:
